@@ -36,9 +36,12 @@
 
 		echo "</ul>";
 		foreach ($productos2 as $key => $product) {
-			echo "<li>".$product["precio"]."</li>";
+			echo "<li>".$product["precio"]." ".$product["modelo"]."</li>";
 		}
 		echo "</ul>";
+
+		//index.html y receptor.php carpeta programacion ejercicio1
+		//Hacer un login para la clase que viene
 	?>
 
 </body>
