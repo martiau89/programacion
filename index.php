@@ -6,12 +6,13 @@
 
 <body>
 
-<form action="receptor.php" method="post">
+<form action="receptor.php" method="POST">
 	<label>Nombre</label>
 	<input type="text" name="dato1"><br>
 	<label>Apellido</label>
 	<input type="text" name="dato2"><br>
 	<input type="submit" value="enviar">
+
 </form>
 
 </body>
